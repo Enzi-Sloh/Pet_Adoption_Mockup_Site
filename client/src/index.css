@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  width: 500px;
+  height: auto;
+  justify-content: space-between;
+}
+.details{
+  border-style: solid;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.details2{
+  border-style: solid;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 375px;
+}
+.grayhead{
+  background-color: gray;
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
+td{
+  border-right: 2px solid black;
+  padding-right: 2px;
+}
+th{
+  border-right: 2px solid black;
+  text-align: left;
+}
+span{
+  font-size: 12px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+form button{
+  background-color: rgb(47, 113, 255);
+  color: white;
+  border: 2px solid black;
+  width: 125px;
+  font-size: 15px;
+}
+.right{
+  margin-left: 100px;
+}
+.left{
+  padding-left: 20px;
+}
+h3{
+  display: block;
+  width: 75%;
+}
+.mar{
+  position: relative;
+  bottom: 30px;
+  left: 100px;
+}
+.details2 p{
+  padding-left: 25px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#adopt{
+  background-color: rgb(192, 38, 38);
+  color: white;
+  border: 2px solid black;
+  height: 30px;
+  width: 125px;
+  align-self: center;
+  font-size: 15px;
+}
+.lbu{
+  background-color: rgb(18, 145, 18);
+  font-size: 15px;
+  color: white;
+  border: 2px solid black;
+  height: 30px;
+  width: 125px;
+  align-self: center;
+  position: relative;
+  right: 75px;
+}
+#likes{
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+}
